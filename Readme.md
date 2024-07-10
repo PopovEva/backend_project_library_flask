@@ -103,7 +103,9 @@ To access admin features, use the following credentials:
 
 ## Frontend
 git:  
-https://github.com/PopovEva/frontend_project_library_flask.git
+https://github.com/PopovEva/frontend_project_library_flask.git  
+
+https://popoveva.github.io/frontend_project_library_flask/
 
 netlify:   
 
