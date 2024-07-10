@@ -52,14 +52,17 @@ This is the backend part of the Library Management System, a Flask-based applica
        python app.py           
        
   !!!
-The application connects to the backend service running at http://127.0.0.1:5057. (local, befor render)  
+The application running at http://127.0.0.1:5057. (local)  !!    
+
+dont forget to Clone the front repository:  
+https://github.com/PopovEva/frontend_project_library_flask.git
 
 (port=5057)
 
 
 ## Usage
 
-### Admin Account
+###  ! Admin Account !
 To access admin features, use the following credentials:
 - Username: Eva
 - Password: eva543
@@ -109,4 +112,4 @@ https://popoveva.github.io/frontend_project_library_flask/
 
 netlify:   
 
-[[Frontend Repository Link](http://evafrontlibrary.netlify.app)].      
+http://evafrontlibrary.netlify.app      
