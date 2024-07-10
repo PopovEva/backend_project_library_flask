@@ -116,4 +116,4 @@ To access admin features, use the following credentials:
 
 ## Frontend
 
-For the frontend part of this application, please refer to [Frontend Repository Link].       
+For the frontend part of this application, please refer to [[Frontend Repository Link](http://evafrontlibrary.netlify.app)].       
