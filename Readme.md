@@ -51,7 +51,23 @@ This is the backend part of the Library Management System, a Flask-based applica
        
        python app.py           
        
-The application will be available at `https://backend-project-library-flask.onrender.com`.
+The application connects to the backend service running at `https://backend-project-library-flask.onrender.com`.  
+or  
+The application connects to the backend service running at http://127.0.0.1:5057. (local, befor render)  
+
+The `index.html` file references the `script.js` file, which connects to the backend through:  
+
+document.addEventListener("DOMContentLoaded", () => {
+    const apiUrl = "https://backend-project-library-flask.onrender.com";
+});  
+
+Before deploying to Render, it was:  
+
+document.addEventListener("DOMContentLoaded", () => {
+    const apiUrl = "http://127.0.0.1:5057";
+});  
+
+(port=5057)
 
 
 ## Usage
