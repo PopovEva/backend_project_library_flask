@@ -74,6 +74,10 @@ def allowed_file(filename):
 def serve_index():
     return send_from_directory(app.static_folder, 'index.html')
 
+@app.route('/media/<path:filename>')
+def media(filename):
+    return send_from_directory('media', filename)
+
 @app.route('/css/<path:path>')
 def serve_css(path):
     return send_from_directory(f"{app.static_folder}/css", path)
@@ -85,11 +89,6 @@ def serve_js(path):
 @app.route('/img/<path:path>')
 def serve_img(path):
     return send_from_directory(f"{app.static_folder}/img", path)
-
-@app.route('/media/<filename>')
-def media(filename):
-    return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
-
 
 #test endpoint
 @app.route('/test', methods=['GET'])
