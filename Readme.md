@@ -49,24 +49,29 @@ This is the backend part of the Library Management System, a Flask-based applica
         pip install -r requirements.txt  
 6. Run the application:  
        
-       python app.py           
+       python app.py   
+
+### To access admin features, use the following credentials:
+- Username: Eva
+- Password: eva543               
        
    
-## Frontend
-git:  
-https://github.com/PopovEva/frontend_project_library_flask.git  
+## Frontend  
 
-https://popoveva.github.io/frontend_project_library_flask/
-
-netlify:   
+### You can view my Library Management System live on Netlify:   
 
 http://evafrontlibrary.netlify.app    
 
+### git:  
+https://popoveva.github.io/frontend_project_library_flask/   
+
+https://github.com/PopovEva/frontend_project_library_flask.git  
 
 
-## Usage
+  
+## Usage:
 
-###  ! Admin Account !
+##   Admin Account
 To access admin features, use the following credentials:
 - Username: Eva
 - Password: eva543
